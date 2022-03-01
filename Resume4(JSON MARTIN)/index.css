@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300&family=Yellowtail&display=swap');
+
+/* normal text fontfamily link */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Fira+Sans:wght@300&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300;400&family=Yellowtail&display=swap');
+
+/* heading text fontfamily link */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300;400&family=Yellowtail&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 55%;
+  margin: auto;
+  background-color: rgb(252, 239, 239);
+  padding: 2.0rem;
+  box-shadow: 0px 0px 7px 2px #cfc9c9;
+
+}
+.contact{
+  font-family: PT Serif;
+  font-size: .9rem;
+}
+.logo-para{
+  display: flex;
+  font-family: PT Serif;
+  font-size: .9rem;
+  /* border: 2px solid black; */
+}
+.logo-para p{
+  /* border: 2px solid black; */
+  display: inline-block;
+  /* margin-right:18.0rem; */
+}
+.youtube{
+  position: absolute;
+  right: 24.0rem;
+}
+.facebook{
+  position: absolute;
+  right: 39.5rem;
+}
+.twitter{
+  position: relative;
+  left: 2.8rem;
+}
+.con-name{
+  /* border: 2px solid black; */
+  display: inline-block;
+  position: relative;
+  top: 1rem;
+  left: 16.6rem;
+  margin-bottom: 1.6rem;
+  margin-top: .9rem;
+}
+.name-para{
+  margin-left: 40px;
+}
+.second-div{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: 10rem;
+  column-gap: .6rem;
+  margin-top: 1.6rem;
+  margin-bottom: 0.1rem;
+}
+.phone,.email,.web,.location{
+  display: grid;
+  grid-template-columns:2.0rem 1fr;
+  padding: 0.2rem;
+}
+.img{
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 59%;
+  height: 74%;
+  margin-left: 3.2rem;
+}
+.img img{
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+.hello{
+  /* border: 2px solid black; */
+  text-align: right;
+  font-family: PT Serif;
+}
+.heading-hello{
+  margin-bottom: 20px;
+}
+.heading-education,.year-name,.education-para{
+  margin-bottom: .4rem;
+}
+.education{
+  margin-top: 1.0rem;
+  margin-bottom: 2.0rem;
+  font-family: PT Serif;
+  font-size: .9rem;
+}
+.year-name{
+  font-size: .9rem;
+  display: flex;
+}
+.year{
+  margin-right: 1.3rem;
+}
+.third-div{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  /* grid-template-rows: 800px; */
+  column-gap: 4.8rem;
+}
+.progrssbar{
+  width: 50%;
+  height: 11px;
+  background-color: gray;
+  border-radius: 5px;
+  margin-left: .4rem;
+  margin-right: 1.4rem;
+  position: relative;
+  top: .2rem;
+}
+.fill-progess-wordpress{
+  width: 85%;
+  height: 100%;
+  background-color: rgb(1, 1, 20);
+}
+.fill-progess-photoshop{
+  width: 75%;
+  height: 100%;
+  background-color: rgb(1, 1, 20);
+}
+.fill-progess-js{
+  width: 95%;
+  height: 100%;
+  background-color: rgb(1, 1, 20);
+}
+.fill-progess-php{
+  width: 55%;
+  height: 100%;
+  background-color: rgb(1, 1, 20);
+}
+.fill-progess-python{
+  width: 85%;
+  height: 100%;
+  background-color: rgb(1, 1, 20);
+}
+.wordpress,.photoshop,.js,.php,.python,.english,.hindi{
+  display: flex;
+  margin-top: 1.0rem;
+}
+.skills,.experience,.references,.language{
+  margin-top: 1.0rem;
+  margin-bottom: 2.0rem;
+  font-family: PT Serif;
+  font-size: .9rem;
+}
+.hobbies-para{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(2,1fr);
+  row-gap: .2rem;
+}
+.hobbies{
+  font-family: PT Serif;
+  font-size: .9rem;
+}
+.reference-name-para{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  column-gap: .9rem;
+}
+.reference-name{
+  font-size: .9rem;
+  margin-bottom: .4rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.third-vr {
+  border-left: .1rem solid gray;
+  height: 43rem;
+  position: absolute;
+  top: 20.3rem;
+  left: 42.1rem;
+}
+.education-para{
+  margin-left: 5.4rem;
+}
+.heading-skills,.heading-education,.heading-hobbies,.heading-experience,.heading-references,.heading-lang,.heading-hello{
+  margin-bottom: 1.0rem;
+  font-size: 1.3rem;
+  font-family: Libre Franklin;
+}
+strong{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.name{
+  font-family: Roboto Serif;
+}

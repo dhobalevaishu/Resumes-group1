@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300&family=Yellowtail&display=swap');
+
+/* normal text fontfamily link */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Fira+Sans:wght@300&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300;400&family=Yellowtail&display=swap');
+
+/* heading text fontfamily link */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300;400&family=Yellowtail&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 55%;
+  margin: auto;
+  box-shadow: 0px 0px 7px 2px #cfc9c9;
+  background-color: rgb(243, 243, 243);
+  /* padding: 1.2rem; */
+}
+.first-div{
+  text-align: center;
+}
+.frist-one-one{
+  display: inline-block;
+  margin: 0.5rem 0 2.0rem 0;
+}
+.name{
+  font-family: Roboto Serif;
+  font-size: 2.5rem;
+  letter-spacing: .2rem;
+  color: rgb(39, 39, 39);
+}
+.post-para{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: .6rem;
+  font-weight: 500;
+  color: rgb(146, 145, 145);
+  font-size: 1.2rem;
+}
+.first-two{
+  background-color: white;
+  padding: 1.3rem;
+}
+.statement-para{
+  margin-top: .7rem;
+  margin-bottom: 1.5rem;
+}
+.second-div{
+  display: grid;
+  grid-template-columns: 40% 60%;
+  column-gap: 1.7rem;
+  background-color: white;
+  margin-top: .5rem;
+  padding: 1.9rem;
+}
+.education-paragraph2{
+  margin-top: 1.0rem;
+  margin-bottom: 1.9rem;
+}
+.education-name{
+  font-size: .9rem;
+  margin-top: .2rem;
+  margin-bottom: .2rem;
+}
+.list-para{
+  margin-bottom: .4rem;
+}
+.address,.phone,.email{
+  display: grid;
+  grid-template-columns: .7rem 1fr;
+  column-gap: 1.5rem;
+  padding-bottom: .3rem;
+}
+.para-location{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+span{
+  position: relative;
+  left: 5.6vw;
+}
+.big-para{
+  margin-top: .9rem;
+  margin-bottom: .9rem;
+}
+.para-li{
+  margin-left: .9rem;
+}
+.li-span{
+  position: relative;
+  right: 80.0rem;
+}
+.title{
+  margin-top: 1.5rem;
+  margin-bottom: .3rem;
+  font-size: 1.2rem;
+}
+
+.contact2{
+  padding-left: -13rem;
+  position: relative;
+  right: .7rem;
+}
+.third-div{
+  /* background-color: #cfc9c9; */
+  display: grid;
+  grid-template-columns: 40% 40%;
+  column-gap: 1.7rem;
+  /* margin-top: 1.0rem; */
+  padding-left: 1.9rem;
+}
+.vr{
+  border-left: 2px solid rgb(196, 194, 194);
+  height: 47.5rem;
+  position: absolute;
+  top: 19.3rem;
+  left: 36rem;
+}
+.experiance{
+  margin-right: 1.5rem;
+}
+.experiance strong{
+  font-size: .9rem;
+}
+.education strong{
+  font-size: .9rem;
+}
+.education,.experiance,.expertise,.contact,.references,.first-two{
+  font-family: PT Serif;
+  font-size: .9rem;
+  
+}
+.heading-education,.heading-expertise,.heading-experiances{
+  margin-top: .5rem;
+  margin-bottom: 1.3rem;
+  font-family: Libre Franklin;
+}
+.heading-contact,.heading-references{
+  margin-top: 1.6rem;
+  margin-bottom: 1.3rem;
+  font-family: Libre Franklin;  
+}
+.references li{
+  list-style: none;
+}
+.para-refer{
+  display: grid;
+  grid-template-columns:70% 70%;
+  column-gap: 1.0rem;
+  padding: .5rem;
+}
+.para1,.para2{
+  display: inline-block;
+  /* border: 2px solid black; */
+}
+.heading-contact,.heading-references{
+  letter-spacing: .1rem;
+}
+.heading-statement{
+  font-family: Libre Franklin;
+}
