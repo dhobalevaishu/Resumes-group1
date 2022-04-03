@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300&family=Yellowtail&display=swap');
+
+/* normal text fontfamily link */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo&family=Arimo&family=Audiowide&family=Barlow+Condensed&family=Bitter&family=Catamaran&family=Dancing+Script:wght@400;700&family=Fira+Sans:wght@300&family=Fjalla+One&family=Heebo:wght@400;600&family=Hind&family=IBM+Plex+Sans:wght@200&family=Inter:wght@500;600&family=Lato:wght@400;700&family=League+Spartan&family=Libre+Franklin&family=Lora:ital@1&family=M+PLUS+1&family=Montserrat:wght@300;400&family=Mulish:ital,wght@0,200;0,500;1,300&family=Nunito&family=Open+Sans&family=Oswald&family=Overpass&family=PT+Sans:wght@700&family=PT+Serif&family=Philosopher:ital@1&family=Poppins&family=Questrial&family=Red+Hat+Display&family=Roboto+Condensed&family=Roboto+Serif:wght@300;400&family=Roboto:wght@300;500;900&family=Rubik:wght@300&family=Secular+One&family=Smooch+Sans&family=Source+Sans+Pro:wght@300;400&family=Ubuntu&family=Varela+Round&family=Yellowtail&display=swap');
+
+/* heading text fontfamily link */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300;400&family=Yellowtail&display=swap');* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 670px;
+  margin: auto;
+  position: relative;
+}
+.sub-container {
+  width: 670px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 35% 2fr;
+  column-gap: 0.2vw;
+  box-shadow: 0px 0px 7px 2px #cfc9c9;
+  font-family:Lato ;
+  font-size: 14px;
+  line-height: 22px;
+}
+.first-div {
+  padding: 2rem;
+  background-color: rgb(206, 200, 200);
+  padding-bottom: 90px;
+}
+.second-div {
+  padding: 2rem;
+  padding-bottom: 60px;
+}
+.red-box {
+  width: 13%;
+  height: 2.6%;
+  background-color: red;
+  position: relative;
+  bottom: 2rem;
+}
+.gray-box {
+  width: 31px;
+  height: 26px;
+  background-color: gray;
+  position: absolute;
+  top: 320px;
+  right: 0px;
+}
+.second-red-box {
+  width: 31px;
+  height: 26px;
+  background-color: red;
+  position: absolute;
+  bottom: 0px;
+}
+.span-resume {
+  font-weight: bold;
+  color: rgb(102, 101, 101);
+}
+.cv-resume-para {
+  letter-spacing: 2px;
+  bottom: -1px;
+  display: inline-block;
+  transform: rotate(-90deg);
+  margin-top: 3.3rem;
+  margin-left: -3.5rem;
+  position: relative;
+  left: -8px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 22px;
+}
+.paragraph{
+  margin-top: 8.3rem;
+  color: #2b2a2a;
+}
+.first-para{
+  margin-bottom: 1.0rem;
+  margin-top: 11rem;
+}
+.contact{
+  color: #2b2a2a;
+}
+.email,.website{
+  font-weight: bold;
+}
+.email{
+  margin-top: .8rem;
+}
+.social{
+  color: #3d3d3d;
+}
+.heading-social{
+  margin-bottom: 1.1rem;
+}
+.icon-one,.icon-two,.icon-three,.icon-four{
+  display: grid;
+  grid-template-columns: 0.6rem 1.0rem;
+  column-gap: 0.9rem;
+  padding: .2rem;
+}
+.heading-skills{
+margin-bottom: 0.7rem;
+}
+.profile{
+  width: 250px;
+  height: 239px;
+  border-radius: 50%;
+  border: .2rem solid white;
+  position: relative;
+  right: 9.3rem;
+  top: 1rem;
+}
+.profile img{
+  width: 100%;
+  border-radius: 50%;
+  height: 100%;
+}
+.experiance{
+  margin-top: 3rem;
+  font-family: PT Serif;
+}
+.sub-expe,.sub-education{
+  margin-top: .7rem;
+  margin-bottom: 17px;
+}
+.bold{
+  font-weight: bold;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 3px;
+}
+.heading-experiance,.heading-education,.heading-awards,.heading-skills,.heading-social,.heading-contact,.heading-lang,.heading-projects,.heading-certi,.heading-references{
+  margin-bottom: 1.3rem;
+  margin-top: 40px;
+  font-family: Libre Franklin;
+  font-size: 17px;
+}
+.heading-experiance{
+  margin-top: 62px;
+}
+.uper-data{
+  display: inline-block;
+  position: absolute;
+  top: 3.5rem;
+  left: 27rem;
+}
+.heading1{
+  font-size: 34px;
+  letter-spacing: .1rem;
+  font-weight: 100;
+  margin-bottom:11px;
+}
+.sub-second-data{
+  position: relative;
+  bottom: 0.6rem;
+}
+.skills{
+  color: #2b2a2a;
+}
+.heading2{
+  font-size: 34px;
+  margin-bottom: 7px;
+}
+.uper-head-para{
+  font-weight: bold;
+}
+.experiance,.education,.awards{
+  margin-right: .5rem;
+}
+.social i{
+  position: relative;
+  top: 5px;
+}
+.skills{
+  margin-bottom: 40px;
+}
+.heading-projects{
+  margin-top: 34px;
+}
+
+
+
+
+.progressbar{
+  width: 100%;
+  height: 7px;
+  background-color: #928d8d;
+  margin-bottom: 10px;
+}
+.fill{
+  background-color: rgb(29, 28, 28);
+  height: 100%;
+}
+.fill1{
+  width: 80%;
+}
+.fill2{
+  width: 90%;
+}
+.fill3{
+  width: 85%;
+}
+.fill4{
+  width: 70%;
+}
+.fill5{
+  width: 87%;
+}
+.fill6{
+  width: 91%;
+}
+.p-link{
+  color: rgb(70, 70, 160);
+  margin-bottom: 10px;
+}
+.certi-para1,.certi-para2{
+  margin-bottom: 10px;
+}
+.date{
+  font-weight: bold;
+}
+.refer-grid{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  column-gap: 1.7rem;
+}
+.references li{
+  list-style: none;
+}
+.heading-references{
+  margin-top: 47px;
+}
+.references,.certi{
+  display: none;
+}

@@ -43,7 +43,6 @@ body{
   width: 80%;
   height: 2px;
   background-color: gray;
-  margin-bottom: -3px;
 }
 .fill{
   background-color: rgb(138, 91, 4);
@@ -81,15 +80,15 @@ body{
   float: right;
 }
 .img-para{
-  /* display: grid;
+  display: grid;
   grid-template-columns: 40% 1fr;
-  column-gap: 10px; */
+  column-gap: 10px;
   background-color: rgb(236, 157, 10);
   padding: 30px;
 }
-.name{
+.last-name{
   font-size: 24px;
-  letter-spacing: 2px;}
+}
 .para{
   position: relative;
   top: 28px;
@@ -160,10 +159,6 @@ hr{
 .para hr{
   margin-bottom: 4px;
   border: 1px solid white;
-  width: 240px;
-}
-.sub-para{
-  padding-bottom: 44px;
 }
 .main-para{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -173,10 +168,7 @@ hr{
   letter-spacing: .1rem;
   font-size: 26px;
   color: #1d1a1a;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  position: absolute;
-  bottom: 69px;
-  left: 91px;
+  font-family: Roboto Serif;
 }
 .contact-para,.email-para,.web-para,.add-para,.achive-para,.refer-para-1,.refer-para-2{
   color: gray;

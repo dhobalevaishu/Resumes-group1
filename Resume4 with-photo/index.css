@@ -17,9 +17,13 @@
   margin: 0;
   box-sizing: border-box;
 }
-.container{
-  width: 55%;
+body{
+  position: relative;
+  width: 750px;
   margin: auto;
+}
+.container{
+  width: 100%;
   background-color: rgb(252, 239, 239);
   padding: 2.0rem;
   box-shadow: 0px 0px 7px 2px #cfc9c9;
@@ -28,6 +32,10 @@
 .contact{
   font-family: PT Serif;
   font-size: .9rem;
+}
+.contact i{
+  position: relative;
+  top: 5px;
 }
 .logo-para{
   display: flex;
@@ -42,7 +50,7 @@
 }
 .youtube{
   position: absolute;
-  right: 24.0rem;
+  right: 20rem;
 }
 .facebook{
   position: absolute;
@@ -50,7 +58,7 @@
 }
 .twitter{
   position: relative;
-  left: 2.8rem;
+  left: 36.8rem;
 }
 .con-name{
   /* border: 2px solid black; */
@@ -115,10 +123,8 @@
 }
 .third-div{
   display: grid;
-  grid-template-columns: repeat(2,1fr);
-  /* grid-template-rows: 800px; */
-  column-gap: 4.8rem;
-}
+  grid-template-columns: 39% 0 1fr;
+  column-gap: 3.8rem;}
 .progrssbar{
   width: 50%;
   height: 11px;
@@ -154,23 +160,13 @@
   height: 100%;
   background-color: rgb(1, 1, 20);
 }
-.wordpress,.photoshop,.js,.php,.python,.english,.hindi{
+.wordpress,.photoshop,.js,.php,.python,.english,.hindi,.marathi{
   display: flex;
   margin-top: 1.0rem;
 }
 .skills,.experience,.references,.language{
   margin-top: 1.0rem;
   margin-bottom: 2.0rem;
-  font-family: PT Serif;
-  font-size: .9rem;
-}
-.hobbies-para{
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  grid-template-rows: repeat(2,1fr);
-  row-gap: .2rem;
-}
-.hobbies{
   font-family: PT Serif;
   font-size: .9rem;
 }
@@ -186,17 +182,17 @@
 }
 .third-vr {
   border-left: .1rem solid gray;
-  height: 43rem;
+  /* height: 45rem;
   position: absolute;
   top: 20.3rem;
-  left: 42.1rem;
+  left: 22.1rem; */
 }
 .education-para{
   margin-left: 5.4rem;
 }
-.heading-skills,.heading-education,.heading-hobbies,.heading-experience,.heading-references,.heading-lang,.heading-hello{
+.heading-skills,.heading-education,.heading-projects,.heading-experience,.heading-references,.heading-lang,.heading-hello,.heading-certi{
   margin-bottom: 1.0rem;
-  font-size: 1.3rem;
+  font-size: 1.11rem;
   font-family: Libre Franklin;
 }
 strong{
@@ -204,4 +200,22 @@ strong{
 }
 .name{
   font-family: Roboto Serif;
+}
+
+
+.p-link{
+  color: rgb(103, 103, 218);
+  margin-bottom: 10px;
+}
+.certi1{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  column-gap: 27px;
+}
+.date{
+  font-weight: bold;
+  font-size: 13px;
+}
+.certi,.projects{
+  display: none;
 }
