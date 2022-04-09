@@ -31,7 +31,7 @@ body{
 }
 .first-div {
   padding: 2rem;
-  background-color: rgb(206, 200, 200);
+  background-color: rgb(227 222 222);
   padding-bottom: 90px;
 }
 .second-div {
@@ -126,7 +126,7 @@ margin-bottom: 0.7rem;
   margin-top: 3rem;
   font-family: PT Serif;
 }
-.sub-expe,.sub-education{
+.sub-expe,.sub-education1,.sub-education2{
   margin-top: .7rem;
   margin-bottom: 17px;
 }
@@ -219,6 +219,9 @@ margin-bottom: 0.7rem;
   color: rgb(70, 70, 160);
   margin-bottom: 10px;
 }
+.project1{
+  margin-bottom: 20px;
+}
 .certi-para1,.certi-para2{
   margin-bottom: 10px;
 }
@@ -236,6 +239,12 @@ margin-bottom: 0.7rem;
 .heading-references{
   margin-top: 47px;
 }
+.email,.website{
+  margin-bottom: 5px;
+}
+.email{
+  margin-top: 3px;
+}
 .references,.certi{
-  display: none;
+  /* display: none; */
 }

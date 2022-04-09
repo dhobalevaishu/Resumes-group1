@@ -49,7 +49,7 @@ body{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin-top: .6rem;
   font-weight: 500;
-  color: rgb(146, 145, 145);
+  color: rgb(76 74 74);
   font-size: 1.2rem;
 }
 .first-two{
@@ -132,12 +132,12 @@ span{
 .experiance{
   margin-right: 1.5rem;
 }
-.heading-education,.heading-expertise,.heading-experiances,.heading-projects,.heading-lang,.heading-references,.heading-experiance{
+.heading-education,.heading-expertise,.heading-experiances,.heading-certi,.heading-lang,.heading-references,.heading-experiance{
   margin-top: .5rem;
   margin-bottom: 1.3rem;
   font-family: Libre Franklin;
 }
-.heading-contact,.heading-certi{
+.heading-contact,.heading-projects{
   margin-top: 1.6rem;
   margin-bottom: 1.3rem;
   font-family: Libre Franklin;  
@@ -164,7 +164,8 @@ span{
   column-gap: 30px;
   padding-top: 40px;
   padding-bottom: 20px;
-  display: none;
+  margin-top: -40px;
+  /* display: none; */
 }
 .forth-one{
   padding: 0 30px;
@@ -174,14 +175,8 @@ span{
   display:grid;
   grid-template-columns: repeat(2,1fr);
 }
-.certi-data{
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  column-gap: 60px;
-}
-.certi2{
-  position: relative;
-  left: 70px;
+.certi-p1{
+  margin-bottom: 15px;
 }
 .references{
   position: relative;

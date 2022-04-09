@@ -27,7 +27,6 @@ body{
   background-color: rgb(252, 239, 239);
   padding: 2.0rem;
   box-shadow: 0px 0px 7px 2px #cfc9c9;
-
 }
 .contact{
   font-family: PT Serif;
@@ -61,17 +60,18 @@ body{
   left: 36.8rem;
 }
 .con-name{
-  /* border: 2px solid black; */
-  display: inline-block;
-  position: relative;
-  top: 1rem;
-  left: 16.6rem;
-  margin-bottom: 1.6rem;
-  margin-top: .9rem;
+      /* border: 2px solid black; */
+      display: inline-block;
+      position: relative;
+      top: 1rem;
+      left: 13.6rem;
+      margin-bottom: 1.6rem;
+      margin-top: .9rem;
 }
 .name-para{
-  margin-left: 40px;
+  margin-left: 82px;
 }
+
 .second-div{
   display: grid;
   grid-template-columns: repeat(3,1fr);
@@ -98,9 +98,8 @@ body{
   height: 100%;
 }
 .hello{
-  /* border: 2px solid black; */
-  text-align: right;
   font-family: PT Serif;
+  font-size: 14px;
 }
 .heading-hello{
   margin-bottom: 20px;
@@ -200,6 +199,7 @@ strong{
 }
 .name{
   font-family: Roboto Serif;
+  font-size: 35px;
 }
 
 
@@ -216,6 +216,16 @@ strong{
   font-weight: bold;
   font-size: 13px;
 }
+.year{
+  position: relative;
+  top: 20px;
+}
+.education-name{
+  margin-top: 20px;
+}
+.references{
+  margin-top: 30px;
+}
 .certi,.projects{
-  display: none;
+  /* display: none; */
 }

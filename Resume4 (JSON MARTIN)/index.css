@@ -27,6 +27,7 @@ body{
   background-color: rgb(252, 239, 239);
   padding: 2.0rem;
   box-shadow: 0px 0px 7px 2px #cfc9c9;
+  font-family: PT Serif;
   font-size:14px;
 }
 .contact{
@@ -40,17 +41,13 @@ body{
 .logo-para{
   display: flex;
   font-family: PT Serif;
-  /* font-size: .9rem; */
-  /* border: 2px solid black; */
 }
 .logo-para p{
-  /* border: 2px solid black; */
   display: inline-block;
-  /* margin-right:18.0rem; */
 }
 .youtube{
   position: absolute;
-  right: 20rem;
+  right: 21rem;
 }
 .facebook{
   position: absolute;
@@ -65,12 +62,12 @@ body{
   display: inline-block;
   position: relative;
   top: 1rem;
-  left: 16.6rem;
+  left: 13.6rem;
   margin-bottom: 1.6rem;
   margin-top: .9rem;
 }
 .name-para{
-  margin-left: 40px;
+  margin-left: 82px;
 }
 .second-div{
   display: grid;
@@ -131,6 +128,7 @@ body{
 }
 .year{
   margin-right: 1.3rem;
+  margin-top: 20px;
 }
 .third-div{
   display: grid;
@@ -178,8 +176,10 @@ body{
 .skills,.experience,.references,.language{
   margin-top: 1.0rem;
   margin-bottom: 2.0rem;
-  font-family: PT Serif;
   /* font-size: .9rem; */
+}
+.references{
+  margin-top: 30px;
 }
 .reference-name-para{
   display: grid;
@@ -211,6 +211,7 @@ strong{
 }
 .name{
   font-family: Roboto Serif;
+  font-size: 35px;
 }
 
 
@@ -227,6 +228,9 @@ strong{
   font-weight: bold;
   font-size: 13px;
 }
-.certi,.projects{
-  display: none;
+.education-name{
+  margin-top: 20px;
+}
+.projects,.references{
+  /* display: none; */
 }
